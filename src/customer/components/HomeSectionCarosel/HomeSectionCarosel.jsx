@@ -22,7 +22,7 @@ const HomeSectionCarosel = ({data,sectionName}) => {
 
   return (
     <div className="border">
-      <h2 className="text-2xl font-extrabold text-gray-800 py-2">{sectionName}</h2>
+      <h2 className="text-2xl font-extrabold text-gray-800 py-2 flex">{sectionName}</h2>
       <div className="relative p-5">
         <AliceCarousel
           items={items}

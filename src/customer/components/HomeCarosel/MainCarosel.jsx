@@ -16,6 +16,7 @@ return (
         autoPlay
         autoPlayInterval={1000}
         infinite
+        className="relative z-10"
     />
  );
 }
