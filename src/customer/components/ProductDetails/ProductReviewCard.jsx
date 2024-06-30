@@ -4,7 +4,7 @@ import React from "react";
 
 const ProductReviewCard = () => {
   return (
-    <div >
+    <div>
       <Grid container spacing={2} gap={3}>
         <Grid item xs={1}>
           <Box>
@@ -12,12 +12,12 @@ const ProductReviewCard = () => {
               className="text-white"
               sx={{ width: 40, height: 40, bgcolor: "#9155fd" }}
             >
-                S
+              S
             </Avatar>
           </Box>
         </Grid>
-      
-       <Grid  className="" item xs={9} >
+
+        <Grid className="text-left" item xs={9}>
           <div className="space-y-2">
             <div>
               <p className="font-semibold text-lg">Siddhesh</p>
@@ -25,10 +25,14 @@ const ProductReviewCard = () => {
             </div>
           </div>
 
-          <Rating value={4.6} name="half-rating" readOnly precision={0.1}></Rating>
-          <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <Rating
+            value={4.6}
+            name="half-rating"
+            readOnly
+            precision={0.1}
+          ></Rating>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Grid>
-       
       </Grid>
     </div>
   );
